@@ -7,17 +7,16 @@ Description: Carl Brown is Boothstrap 5 HTML Template For Personal Portfolio CV 
 Version: 1.2
 */
 
-
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #F26649;
-  --secondary-color: #F5F3EB;
-  --dark-color: #241F21;
-  --grey-color: #CECBC7;
-  --body-text-color: #241F21;
+  --accent-color: #f26649;
+  --secondary-color: #f5f3eb;
+  --dark-color: #241f21;
+  --grey-color: #cecbc7;
+  --body-text-color: #241f21;
   --light-text-color: #696969;
-  --link-color: #241F21;
+  --link-color: #241f21;
 }
 
 *,
@@ -31,8 +30,8 @@ Version: 1.2
 /** Typography
   --------------------------------------------------------------*/
 body {
-  font-family: 'Inter', sans-serif;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 1.6em;
@@ -58,22 +57,19 @@ h6,
 h1,
 .h1 {
   font-size: 70px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 h2,
 .h2 {
   font-size: 36px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 h3,
 .h3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 22px;
-
 }
 
 h4,
@@ -82,27 +78,21 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
-
 }
 
-
 @media only screen and (max-width: 580px) {
-
   h1,
   .h1 {
     font-size: 55px;
-
   }
 
   h2,
   .h2 {
     font-size: 35px;
-
   }
 }
-
 
 em {
   font-weight: 700;
@@ -117,7 +107,7 @@ p.lead-paragraph {
 }
 
 p {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: var(--light-text-color);
   font-size: 16px;
 }
@@ -145,10 +135,10 @@ button.btn.btn-primary.btn-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #F5F2EA;
+  --bs-btn-color: #f5f2ea;
   --bs-btn-bg: var(--accent-color);
   --bs-btn-border-color: var(--accent-color);
-  --bs-btn-hover-color: #F5F2EA;
+  --bs-btn-hover-color: #f5f2ea;
   --bs-btn-hover-bg: var(--dark-color);
   --bs-btn-hover-border-color: var(--dark-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
@@ -160,15 +150,12 @@ button.btn.btn-primary.btn-lg {
   --bs-btn-disabled-bg: var(--accent-color);
   --bs-btn-disabled-border-color: var(--accent-color);
   transition: 0.5s;
-
 }
 
 @media only screen and (max-width: 580px) {
   button.btn.btn-primary.btn-lg {
-
     width: 158px;
     height: 58px;
-
   }
 }
 
@@ -198,17 +185,14 @@ button.btn.btn-outline-primary {
 /* pro button  */
 .btn.btn-primary.get-pro:hover {
   background: var(--accent-color);
-
 }
-
 
 /* mid-break line  */
 .mid-break {
-  color: #DAD9D4;
+  color: #dad9d4;
   opacity: 0.5;
   height: 1px;
 }
-
 
 /* ---------- navigation bar ---------- */
 section.navigation {
@@ -216,7 +200,7 @@ section.navigation {
 }
 
 ul.nav.nav-pills {
-  background: #FFFFFF;
+  background: #ffffff;
   display: grid;
   border-radius: 60px;
   width: 119px;
@@ -241,7 +225,6 @@ ul.nav.nav-pills {
   padding: 38px 0;
   --bs-nav-link-hover-color: var(--accent-color);
   --bs-nav-link-active-color: var(--accent-color);
-
 }
 
 /* dropdown style  */
@@ -258,9 +241,7 @@ ul.nav.nav-pills {
   background-color: var(--light-text-color) !important;
 }
 
-
 @media only screen and (max-width: 1200px) {
-
   section.navigation {
     z-index: 99999;
   }
@@ -277,14 +258,16 @@ ul.nav.nav-pills {
     padding: 0px;
     justify-content: space-evenly;
   }
-
 }
-
 
 /* ----------  hero section  ---------- */
 header {
   background-color: var(--dark-color);
   margin-top: 0px;
+}
+
+.hero {
+  width: inherit;
 }
 
 .container.hero-container {
@@ -298,7 +281,6 @@ img.hero-img {
   border: 10px solid rgba(242, 102, 73, 0.2);
 }
 
-
 header h2 {
   color: var(--secondary-color);
 }
@@ -309,7 +291,7 @@ a {
 }
 
 header p.copyright {
-  color: #DBD9D1;
+  color: #dbd9d1;
   margin-top: 10%;
 }
 
@@ -319,11 +301,9 @@ header p.copyright {
   background-color: transparent;
 }
 
-
 header.position-fixed {
   height: -webkit-fill-available;
 }
-
 
 /* offcanvas style  */
 .offcanvas-btn {
@@ -347,9 +327,7 @@ header.position-fixed {
   background: var(--dark-color);
 }
 
-
 @media only screen and (max-width: 1200px) {
-
   .offcanvas-btn {
     display: block;
   }
@@ -359,23 +337,17 @@ header.position-fixed {
   }
 }
 
-
-
 /* ----------  home section  ----------  */
 
 section#home {
   padding: 300px 0px;
 }
 
-
 @media only screen and (max-width: 1200px) {
-
   section#home {
     padding: 230px 0px;
   }
-
 }
-
 
 /* ----------  About Section  ----------  */
 
@@ -388,7 +360,6 @@ section#home {
 .open-description {
   color: var(--light-text-color);
 }
-
 
 a.icon-link {
   font-size: 1rem;
@@ -430,12 +401,21 @@ p.card-text {
 
 /* swiper pagination */
 .swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
   display: inline-block;
   border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-  background: var(--swiper-pagination-bullet-inactive-color, var(--body-text-color));
-  opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+  background: var(
+    --swiper-pagination-bullet-inactive-color,
+    var(--body-text-color)
+  );
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
 }
 
 .swiper-pagination-bullet-active {
@@ -443,11 +423,9 @@ p.card-text {
   background: var(--swiper-pagination-color, var(--accent-color));
 }
 
-
 /* ----------  skill section  ----------  */
 
 div#progressbar-tooltip-id {
-
   overflow: hidden;
 }
 
@@ -458,7 +436,7 @@ div#progressbar-tooltip-id {
 .ab-progress .progress-bar-wrap {
   height: var(--progressbar-height, 6px);
   width: 600px;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .ab-progress .ab-progress-bar {
@@ -468,7 +446,7 @@ div#progressbar-tooltip-id {
 }
 
 .ab-progress .progress-indicator-inner {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -482,9 +460,7 @@ div#progressbar-tooltip-id {
   border-top: 0px solid var(--progress-indicator-background, var(--clr-dark));
 }
 
-
 @media only screen and (max-width: 580px) {
-
   .ab-progress .progress-bar-wrap {
     width: 350px;
   }
@@ -492,10 +468,7 @@ div#progressbar-tooltip-id {
   .ab-progress .progress-indicator-inner {
     transform: translateX(-100%);
   }
-
-
 }
-
 
 /* ----------  portfolio section  ----------  */
 
@@ -532,11 +505,11 @@ img.portfolio-img {
   left: 30%;
   z-index: 5;
   color: #fff;
-  transition: all .7s ease-in-out;
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 img {
@@ -553,21 +526,16 @@ img {
 }
 
 @media only screen and (max-width: 580px) {
-
   .item {
     margin-left: 40px;
-
   }
-
 }
-
 
 /* ----------  blog section  ----------  */
 
 .blog-description {
   color: var(--body-text-color);
 }
-
 
 img.post-image {
   width: -webkit-fill-available;
@@ -578,19 +546,15 @@ img.post-image:hover {
   transform: scale(1.1);
   will-change: transform;
   z-index: 0;
-
 }
-
 
 .image-holder {
   overflow: hidden;
   border-radius: 15px;
 }
 
-
 a.image-hvr-effect {
   border-radius: 15px;
-
 }
 
 .post-item {
@@ -611,14 +575,13 @@ article.blog-article {
 
 .blog-swipe iconify-icon {
   padding-top: 6px;
-  color: #A4A4A4;
+  color: #a4a4a4;
 }
-
 
 /* ----------  contact section  ----------  */
 
 .contact-list {
-  border: 1px solid #F26649;
+  border: 1px solid #f26649;
   border-radius: 15px;
   width: auto;
   height: 145px;
@@ -642,20 +605,17 @@ p.contact-paragraph {
 }
 
 @media only screen and (max-width: 900px) {
-
   .contact-list {
-    border: 1px solid #F26649;
+    border: 1px solid #f26649;
     border-radius: 15px;
-    width: auto;
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     padding: 0px;
-
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -689,12 +649,10 @@ faqs section style start
   box-shadow: var(--bs-black);
 }
 
-
 .accordion {
-  --bs-accordion-btn-icon: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white');
-  --bs-accordion-btn-active-icon: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white');
+  --bs-accordion-btn-icon: url("https://api.iconify.design/eva/arrow-up-fill.svg?color=white");
+  --bs-accordion-btn-active-icon: url("https://api.iconify.design/eva/arrow-up-fill.svg?color=white");
 }
-
 
 /*--------------------------------------------------------------
 reviews section style start
@@ -712,7 +670,6 @@ iconify-icon.quote {
 .rate {
   color: var(--accent-color);
 }
-
 
 /*--------------------------------------------------------------
 team section style start
